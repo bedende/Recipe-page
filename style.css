@@ -1,0 +1,103 @@
+@font-face {
+    font-family: YoungSerif-Regular;
+    src: url('/assets/fonts/young-serif/YoungSerif-Regular.ttf') format('ttf')
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(239, 223, 204);
+    height: 150vh;
+    width: 100vw;
+    font-family: YoungSerif-Regular, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipe {
+    background-color: white;
+    height: 90%;
+    width: 60%;
+    border-radius: 10px;
+}
+
+img {
+    margin: 10px;
+    width: 90%;
+    height: 20%;
+    border-radius: 10px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p, h1, h2, h3, table {
+    margin: 10px;
+    font-size: 0.4em;
+}
+
+ol, ul {
+    margin: 10px -20px;
+    font-size: 0.4em;
+    max-width: 80%
+}
+
+li {
+    margin: 5px;
+}
+
+h1 {
+    font-size: 1em;
+}
+
+h2 {
+    font-size: 0.7em;
+    color: rgb(154, 84, 84);
+}
+
+h3 {
+    margin: 20px 0 0 15px;
+    color: rgb(168, 15, 168);
+}
+
+.bt {
+    padding-top: 10px;
+    border-top: 1px solid rgb(197, 183, 183);
+}
+
+table {
+    border-collapse: collapse;
+    text-align: left;
+    width: 90%
+}
+
+.bb th, .bb td{
+    border-bottom: 1px solid rgb(197, 183, 183);
+}
+
+th, td {
+    padding: 5px 0;
+    font-weight: normal;
+}
+
+p, .id, th {
+    color: rgb(102, 84, 84);
+}
+
+.nvalue {
+    font-weight: bolder;
+    color: rgb(151, 88, 88);
+}
+
+.pt {
+    margin-top: 0;
+}
